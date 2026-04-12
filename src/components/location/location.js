@@ -121,7 +121,7 @@ const hours = [
       </div>
          
     </motion.div>
-      <section className="w-full py-32 px-6 bg-[#F7EFE2]/40 flex justify-center">
+      <section className="w-full md:py-32 py-12 px-6 bg-[#F7EFE2]/40 flex justify-center">
           <div className="max-w-5xl w-full">
     
             {/* Heading */}
