@@ -1,11 +1,11 @@
 "use client"
 import React from 'react'
-import HeroSection from '../components/herosection'
+import HeroSection from '../../components/herosection'
 import {motion } from "framer-motion"
 import { MapPin, Phone, Mail } from "lucide-react";
-import ContactForm from '../components/contact/contact';
-import OpeningHours from '../components/contact/openinghour';
-import Faqs from '../components/contact/faqs';
+import ContactForm from '../../components/contact/contact';
+import OpeningHours from '../../components/contact/openinghour';
+import Faqs from '../../components/contact/faqs';
 const Page = () => {
      const fadeUp = {
     hidden: { opacity: 0, y: 40 },

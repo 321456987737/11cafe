@@ -1,11 +1,11 @@
 "use client";
 import React,{useState, useEffect} from "react";
-import HeroSection from "./components/herosection";
+import HeroSection from "../components/herosection";
 import Image from "next/image";
-import Menusection from "@/app/components/home/menusection"
-import Gallery from "@/app/components/home/galleery";
-import Testimonials from "@/app/components/home/testimonials";
-import LocationSection from "@/app/components/home/location"
+import Menusection from "@/components/home/menusection"
+import Gallery from "@/components/home/galleery";
+import Testimonials from "@/components/home/testimonials";
+import LocationSection from "@/components/home/location"
 import { motion } from "framer-motion";
 import Link from "next/link";
 const Page = () => {
