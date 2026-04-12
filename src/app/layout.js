@@ -1,6 +1,8 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-
+import Navbar from "../app/components/navbar";
+import Footer from "./components/footer";
+import  SmoothScroll from "./components/smoothscroll"; 
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -22,7 +24,21 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <head>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap"
+          rel="stylesheet"
+        ></link>
+      </head>
+
+      <body className="min-h-full flex flex-col">
+         <SmoothScroll>
+
+        <Navbar />
+        {children}
+        <Footer/>
+         </SmoothScroll>
+      </body>
     </html>
   );
 }
