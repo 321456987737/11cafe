@@ -14,7 +14,7 @@ export default function Navbar() {
     { name: "Contact", href: "/Contact" },
     { name: "Menu", href: "/Menu" },
     { name: "Gallery", href: "/Gallery" },
-    { name: "Blog", href: "/Blog" },
+    { name: "Location", href: "/Location" },
   ];
 
   /* ---------------- ANIMATION VARIANTS ---------------- */
