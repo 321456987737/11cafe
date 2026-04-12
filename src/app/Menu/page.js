@@ -56,7 +56,7 @@ export default function Page() {
   return (
     <>
       <div className="w-full ">
-          <div className="bg-white  md:my-20 flex items-center justify-center ">
+          <div className="bg-white  md:my-20 my-10 flex items-center justify-center ">
             <motion.div className="text-center">
               <motion.p
                 initial={{ opacity: 0, y: 20 }}
