@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import  SmoothScroll from "../components/smoothscroll"; 
+import CoffeeIntro from "@/components/startinhanimation"
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -33,6 +34,7 @@ export default function RootLayout({ children }) {
 
       <body className="min-h-full flex flex-col">
          <SmoothScroll>
+          <CoffeeIntro/>
 
         <Navbar />
         {children}
