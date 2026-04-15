@@ -76,7 +76,7 @@ const hours = [
               transition={{ duration: 0.4 }}
             >
               <h3 className="text-xl font-semibold text-gray-900">
-                No Plates Coffee
+                11.11 Coffee
               </h3>
               <p className="text-gray-600 mt-2">
                 12 John St, New York, NY 10038, United States
@@ -104,7 +104,7 @@ const hours = [
               <h3 className="text-xl font-semibold text-gray-900">Contact</h3>
               <p className="text-gray-600 mt-2">
                 +1 929 278 2719 <br />
-                info@noplatescoffee.com
+                info@11cafe.com
               </p>
             </motion.div>
 
