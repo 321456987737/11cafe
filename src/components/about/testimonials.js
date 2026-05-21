@@ -2,7 +2,7 @@
 
 import React, { useCallback, useEffect, useState } from "react";
 import useEmblaCarousel from "embla-carousel-react";
-import Autoplay from "embla-carousel-autoplay";
+// import Autoplay from "embla-carousel-autoplay";
 import { MoveLeft, MoveRight } from "lucide-react";
 import { motion } from "framer-motion";
 
