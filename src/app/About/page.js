@@ -18,7 +18,7 @@ const Page = () => {
       <MissionVision />
       <TeamCarousel />
       <Experience/>
-      <Testimonials />
+      {/* <Testimonials /> */}
     </div>
   )
 }

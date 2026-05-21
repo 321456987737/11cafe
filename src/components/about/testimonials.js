@@ -48,7 +48,7 @@ const TestimonialCarousel = () => {
   }, [emblaApi, onSelect]);
 
   return (
-    <motion.div className="w-full bg-[#faf7f4] py-24 px-6 flex justify-center">
+    <motion.div className="w-full h-full bg-[#faf7f4] py-24 px-6 flex justify-center">
       <div className="max-w-3xl w-full text-center space-y-12">
         {/* Heading */}
         <div>
