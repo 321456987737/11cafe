@@ -41,40 +41,35 @@ const Testimonials = () => {
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            
-          viewport={{ once: true }}
+            viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.3 }}
-            className="text-4xl font-semibold mb-10 Merriweather md:text-left text-center mx-4" 
+            className="text-4xl font-semibold mb-10 Merriweather md:text-left text-center mx-4"
           >
             What Our <span className="text-[#813831]">Customers Say</span>
           </motion.h2>
 
           {/* EMBLA */}
-          <motion.div  initial={{ opacity: 0, y: 20 }}
-          
-          viewport={{ once: true }}
-                      whileInView={{ opacity: 1, y: 0 }}
-                      transition={{ duration: 0.6, delay: 0.3 }} className="overflow-hidden" ref={emblaRef}>
-            <div    className="flex">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            viewport={{ once: true }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.3 }}
+            className="overflow-hidden"
+            ref={emblaRef}
+          >
+            <div className="flex">
               {testimonials.map((item, index) => (
                 <div key={index} className="min-w-full px-2">
                   <div className="bg-[#F7EFE2] p-8 rounded-2xl shadow-md">
-                    <motion.p
-                      
-                      className="text-gray-700 text-lg leading-relaxed"
-                    >
+                    <motion.p className="text-gray-700 text-lg leading-relaxed">
                       “{item.text}”
                     </motion.p>
 
                     <div className="mt-6">
-                      <motion.h4
-                        className="font-semibold"
-                      >
+                      <motion.h4 className="font-semibold">
                         {item.name}
                       </motion.h4>
-                      <motion.p
-                        className="text-sm text-gray-500"
-                      >
+                      <motion.p className="text-sm text-gray-500">
                         {item.role}
                       </motion.p>
                     </div>
@@ -86,8 +81,7 @@ const Testimonials = () => {
 
           {/* BUTTONS */}
           <motion.div
-          
-          viewport={{ once: true }}
+            viewport={{ once: true }}
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.3 }}
